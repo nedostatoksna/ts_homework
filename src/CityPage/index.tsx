@@ -30,22 +30,22 @@ const CityPage = () => {
     } 
     return (
         <>
-        {getTbilisi('Tbilisi').name}
-        <br></br>
-        {getCountry('Tbilisi')}
-        <br></br>
-        {getTbilisi('Tbilisi').population}
-        <br></br>
-        {getTbilisi('Tbilisi').europe && "yes"}
-        <br></br>
-        <br></br>
-        {getCityInfo().name}
-        <br></br>
-        {getCityInfo().country}
-        <br></br>
-        {getCityInfo().population}
-        <br></br>
-        {getCityInfo().europe && "yes"}
+            {getTbilisi('Tbilisi').name}
+            <br></br>
+            {getCountry('Tbilisi')}
+            <br></br>
+            {getTbilisi('Tbilisi').population}
+            <br></br>
+            {getTbilisi('Tbilisi').europe && "yes"}
+            <br></br>
+            <br></br>
+            {getCityInfo().name}
+            <br></br>
+            {getCityInfo().country}
+            <br></br>
+            {getCityInfo().population}
+            <br></br>
+            {getCityInfo().europe && "yes"}
         </>
     )
 }
